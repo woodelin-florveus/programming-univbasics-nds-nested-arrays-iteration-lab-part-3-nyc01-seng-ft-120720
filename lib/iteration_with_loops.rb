@@ -9,7 +9,7 @@ def join_nested_strings(src)
     while inner_counter < src[counter][inner_counter].count do
       # binding.pry
       if src[counter][inner_counter].class == "String"
-           new_string += src[counter][inner_counter]
+           new_string += src[counter][inner_counter] + " "
       end
       inner_counter += 1
     end

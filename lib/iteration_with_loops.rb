@@ -8,7 +8,7 @@ def join_nested_strings(src)
     while inner_counter < src[counter][inner_counter].length do
       binding.pry
       if src[counter][inner_counter].Class == "String"
-          p src[counter][inner_counter]
+           src[counter][inner_counter]
       end
       inner_counter += 1
     end

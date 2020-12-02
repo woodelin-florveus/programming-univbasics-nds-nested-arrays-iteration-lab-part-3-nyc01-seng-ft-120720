@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while counter < src.length do
     inner_counter = 0
     while inner_counter < src[counter][inner_counter].length do
-      binding.pry
+      # binding.pry
       if src[counter][inner_counter].Class == "String"
            src[counter][inner_counter]
       end

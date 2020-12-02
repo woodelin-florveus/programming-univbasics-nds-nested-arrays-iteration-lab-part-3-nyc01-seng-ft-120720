@@ -3,7 +3,6 @@ require "pry"
 
 def join_nested_strings(src)
   counter = 0
-  binding.pry
   while counter < src.length do
     inner_counter = 0
     while inner_counter < src[counter][inner_counter].length do

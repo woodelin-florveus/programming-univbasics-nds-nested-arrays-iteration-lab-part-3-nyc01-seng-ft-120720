@@ -2,7 +2,7 @@
 require "pry"
 
 def join_nested_strings(src)
-  new_string = " "
+  new_string = ""
   counter = 0
   while counter < src.count do
     inner_counter = 0
